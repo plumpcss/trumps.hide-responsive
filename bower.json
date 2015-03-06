@@ -1,0 +1,21 @@
+{
+  "name": "plumpcss-hide-responsive",
+  "version": "0.1.0",
+  "authors": [
+    "Jon Hurrell <jon@plumpdigital.co.uk>"
+  ],
+  "description": " Responsive hide classes based on your responsive settings.",
+  "main": "_trumps.hide.scss",
+  "keywords": [
+    "plumpcss",
+    "oocss",
+    "css",
+    "helper"
+  ],
+  "license": "MIT",
+  "dependencies": {
+  	"plumpcss-responsive-settings": "~0.1.0",
+  	"plumpcss-hide": "~0.2.3'"
+  	},
+  "homepage": "http://www.plumpdigital.co.uk/"
+}
