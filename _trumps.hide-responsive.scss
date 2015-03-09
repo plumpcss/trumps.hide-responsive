@@ -5,19 +5,16 @@
 //    Responsive hide classes based on your responsive settings.
 //    This is an extension of the default hide module.
 
-@if ($plump-enable-responsive == true) {
+//    Loop over our breakpoints defined in _settings.responsive.scss
+@each $breakpoint in $breakpoints {
 
-	// Loop over our breakpoints defined in _settings.responsive.scss
-	@each $breakpoint in $breakpoints {
+	$alias:  nth($breakpoint, 1);
 
-		$alias:  nth($breakpoint, 1);
-
-		@include media-query($alias) {
-			.hide-#{$alias} {
-				@include hide;
-			}
+	@include media-query($alias) {
+		.hide-#{$alias} {
+			@include hide;
 		}
-
 	}
 
 }
+
