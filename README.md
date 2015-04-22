@@ -6,10 +6,6 @@ Install using Bower:
 
     $ bower install --save plumpcss-hide-responsive
 
-Install using npm:
-
-    $ npm install --save plumpcss-hide-responsive
-
 `hide-responsive` loops through the breakpoints defined in
 `settings.responsive` to generate prefixed breakpoint-based classes. If you are
 using plumpcss’ default breakpoints, you will be given classes like
